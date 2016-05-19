@@ -272,8 +272,6 @@ SQL> select target_name, instance_name from MGMT$DB_DBNINSTANCEINFO  where targe
 --  AVAILABILITY_STATUS_CODE                  NOT NULL NUMBER
 --  TYPE_DISPLAY_NAME                                  VARCHAR2(128)
 --
--- SQL> !pwd
--- /opt/oracle/gowrish
 --
 -- SQL> c/availability_status/target_type
 -- SP2-0023: String not found.
