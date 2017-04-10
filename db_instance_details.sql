@@ -2,10 +2,12 @@
 
 -- Only DB's
 
-select distinct database_name
+select distinct database_name, dbversion
 from mgmt$db_dbninstanceinfo
---where DATABASE_NAME like 'DDDP0555%' or DATABASE_NAME like 'RP16DB2%'
 order by 1;
+
+-- DB count by version
+---- Extend the above sql
 
 -- DB and Instance
 select distinct database_name, trim(host_name), instance_name, creation_date
